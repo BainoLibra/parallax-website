@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8ex;
+    color: #666;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*
+    fixed=parallax
+    scroll=normal
+    */
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('../images/city.jpg');
+    min-height: 400px;
+}
+
+.pimg2{
+    background-image: url('../images/cars.jpg');
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url('../images/DH.jpg');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-ligt{
+    background: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background: #666;
+    color: #fff;
+}
